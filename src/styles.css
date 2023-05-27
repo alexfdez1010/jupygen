@@ -14,31 +14,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.container {
-  margin: 0;
-  padding-top: 10vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: 0.75s;
-}
-
-.logo.tauri:hover {
-  filter: drop-shadow(0 0 2em #24c8db);
-}
-
-.row {
-  display: flex;
-  justify-content: center;
-}
-
 a {
   font-weight: 500;
   color: #646cff;
@@ -49,12 +24,13 @@ a:hover {
   color: #535bf2;
 }
 
-h1 {
+h1, p {
   text-align: center;
 }
 
 input,
-button {
+button,
+textarea {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -79,13 +55,15 @@ button:active {
   background-color: #e8e8e8;
 }
 
-input,
-button {
-  outline: none;
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
 }
 
-#greet-input {
-  margin-right: 5px;
+input,
+button,
+textarea{
+  outline: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -106,4 +84,23 @@ button {
   button:active {
     background-color: #0f0f0f69;
   }
+}
+
+#container-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    margin-bottom: 1vh;
 }

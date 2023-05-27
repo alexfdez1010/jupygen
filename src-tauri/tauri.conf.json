@@ -12,6 +12,14 @@
   },
   "tauri": {
     "allowlist": {
+      "dialog": {
+        "all": false,
+        "ask": false,
+        "confirm": false,
+        "message": false,
+        "open": false,
+        "save": true
+      },
       "all": false,
       "shell": {
         "all": false,
@@ -27,8 +35,9 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
-      "targets": "all"
+      "identifier": "com.jupygen.app",
+      "targets": "all",
+      "externalBin": []
     },
     "security": {
       "csp": null
@@ -40,9 +49,9 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "jupygen",
-        "width": 800,
-        "height": 600
+        "title": "Jupygen",
+        "width": 900,
+        "height": 650
       }
     ]
   }
