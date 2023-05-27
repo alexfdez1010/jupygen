@@ -46,7 +46,7 @@ Post this, a GUI will appear where you can specify the description of the notebo
 
 ## Development
 
-To contribute to the development of the app, you'll require Tauri and its related dependencies. Comprehensive information can be found on the official Tauri website.
+To contribute to the development of the app, you'll require Tauri and its related dependencies. Comprehensive information can be found on the official [Tauri website](https://tauri.studio/en/docs/getting-started/intro).
 
 ## Contribution Guidelines
 
@@ -54,4 +54,4 @@ We appreciate contributions aimed at improving Jupygen. If you wish to contribut
 
 ## License
 
-This project operates under the MIT License. Please refer to the LICENSE file for more information.
+This project operates under the MIT License. Please refer to the [LICENSE](LICENSE) file for more information.
