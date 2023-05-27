@@ -2,6 +2,8 @@
 
 Jupygen, utilizing GPT-3.5, is your tool for rapidly learning new subjects or preparing educational Jupyter Notebooks. It generates notebooks based on your specific needs.
 
+Currently, the binaries are not available. Thus, you will need to compile the code to generate them. Refer to [Development](#development) for that aim.
+
 ## Table of Contents
 
 - [Requirements](#requirements)
