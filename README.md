@@ -46,7 +46,7 @@ Post this, a GUI will appear where you can specify the description of the notebo
 
 ## Development
 
-To contribute to the development of the app, you'll require Tauri and its related dependencies. Comprehensive information can be found on the official [Tauri website](https://tauri.studio/en/docs/getting-started/intro).
+To contribute to the development of the app, you'll require Tauri and its related dependencies. Comprehensive information can be found on the official [Tauri website](https://tauri.app/v1/guides/getting-started/prerequisites).
 
 ## Contribution Guidelines
 
